@@ -1,0 +1,13 @@
+# secrets
+.env
+secrets/*
+mail/
+
+# generated configs (we only commit templates)
+config/mbsyncrc
+config/notmuch-config
+config/neomuttrc
+config/cache
+
+# nix cache
+.nix-portable/

@@ -1,0 +1,22 @@
+IMAPAccount fastmail
+Host ${IMAP_HOST}
+User ${MY_EMAIL}
+AuthMechs LOGIN
+SSLType IMAPS
+PassCmd "cat ${PASS_FILE}"
+
+IMAPStore fastmail-remote
+Account fastmail
+
+MaildirStore fastmail-local
+Path ../mail/
+Inbox ../mail/Inbox
+SubFolders Verbatim
+
+Channel fastmail
+Far :fastmail-remote:
+Near :fastmail-local:
+Patterns *
+Create Both
+Expunge Both
+SyncState *

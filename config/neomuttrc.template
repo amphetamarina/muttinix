@@ -1,0 +1,26 @@
+# identity
+set realname = "${MY_NAME}"
+set from = "${MY_EMAIL}"
+
+# paths
+set folder = "${MAIL_ROOT}/mail"
+set spoolfile = "+Inbox"
+set header_cache = "${MAIL_ROOT}/config/cache/headers"
+set message_cachedir = "${MAIL_ROOT}/config/cache/bodies"
+
+# folders
+set record = "+Sent"
+set postponed = "+Drafts"
+set trash = "+Trash"
+
+# notmuch
+set nm_default_uri = "notmuch://${MAIL_ROOT}/mail"
+virtual-mailboxes "Inbox" "notmuch://?query=tag:inbox"
+virtual-mailboxes "Unread" "notmuch://?query=tag:unread"
+
+# smtp
+set smtp_url = "smtps://${MY_EMAIL}@${SMTP_HOST}:465/"
+set smtp_pass = "`cat ${PASS_FILE}`"
+
+set sort = threads
+set sort_aux = reverse-last-date-received

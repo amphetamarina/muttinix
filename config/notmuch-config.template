@@ -1,0 +1,13 @@
+[database]
+path=./mail
+
+[user]
+name=${MY_NAME}
+primary_email=${MY_EMAIL}
+
+[new]
+tags=unread;inbox;
+ignore=
+
+[search]
+exclude_tags=deleted;spam;
