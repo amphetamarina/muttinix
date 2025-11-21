@@ -4,6 +4,7 @@
 **reproducible · portable · template-driven**
 
 a self-contained cli mail environment using **neomutt**, **notmuch**, and **isync (mbsync)**. built on `nix-portable` to run anywhere without root access or global configuration pollution.
+<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/f6d434c7-6f81-4417-a2c5-df0e270284c6" />
 
 configured by default for **fastmail**, but adaptable to any standard imap provider.
 
