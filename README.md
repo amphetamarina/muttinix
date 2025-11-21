@@ -1,3 +1,5 @@
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9e4f99ca-b559-4343-91ee-a142d4b25472" />
+
 # muttinix
 **reproducible · portable · template-driven**
 
