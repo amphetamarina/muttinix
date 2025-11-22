@@ -1,2 +1,2 @@
-nix-portable nix develop --extra-experimental-features "nix-command flakes"
+nix develop --extra-experimental-features "nix-command flakes"
 
