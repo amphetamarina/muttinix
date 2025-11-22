@@ -4,10 +4,10 @@ secrets/*
 mail/
 
 # generated configs (we only commit templates)
-config/mbsyncrc
-config/notmuch-config
-config/neomuttrc
-config/cache
+config
+!config/mbsyncrc.template
+!config/notmuch-config.template
+!config/neomuttrc.template
 
 # nix cache
 .nix-portable/
