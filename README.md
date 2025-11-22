@@ -3,7 +3,7 @@
 # muttinix
 **reproducible · portable · template-driven**
 
-a self-contained cli mail environment using **neomutt**, **notmuch**, and **isync (mbsync)**. built on `nix-portable` to run anywhere without root access or global configuration pollution.
+a self-contained cli mail environment using **neomutt**, **notmuch**, and **isync (mbsync)**.
 configured by default for **fastmail**, but adaptable to any standard imap provider.
 
 ## features
