@@ -1,7 +1,7 @@
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9e4f99ca-b559-4343-91ee-a142d4b25472" />
 
 # muttinix
-**reproducible · portable · template-driven**
+**Lead the Muttiny. Burn the bloat.**
 
 a self-contained cli mail environment using **neomutt**, **notmuch**, and **isync (mbsync)**.
 configured by default for **fastmail**, but adaptable to any standard imap provider.
