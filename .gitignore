@@ -8,6 +8,7 @@ config
 !config/mbsyncrc.template
 !config/notmuch-config.template
 !config/neomuttrc.template
+!config/mailcap.template
 
 # nix cache
 .nix-portable/

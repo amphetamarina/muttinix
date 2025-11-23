@@ -47,6 +47,7 @@ pkgs.mkShell {
     envsubst "$VARS" < config/mbsyncrc.template > config/mbsyncrc
     envsubst "$VARS" < config/notmuch-config.template > config/notmuch-config
     envsubst "$VARS" < config/neomuttrc.template > config/neomuttrc
+    cat config/mailcap.template > config/mailcap
 
     # 5. Inject HTML & URL Config into Neomutt
     cat >> config/neomuttrc <<EOF
