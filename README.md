@@ -1,11 +1,9 @@
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9e4f99ca-b559-4343-91ee-a142d4b25472" />
 
 # muttinix
-**reproducible · portable · template-driven**
+**Lead the Muttiny. Burn the bloat.**
 
-a self-contained cli mail environment using **neomutt**, **notmuch**, and **isync (mbsync)**. built on `nix-portable` to run anywhere without root access or global configuration pollution.
-<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/f6d434c7-6f81-4417-a2c5-df0e270284c6" />
-
+a self-contained cli mail environment using **neomutt**, **notmuch**, and **isync (mbsync)**.
 configured by default for **fastmail**, but adaptable to any standard imap provider.
 
 ## features
