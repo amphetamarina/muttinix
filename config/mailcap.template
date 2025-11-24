@@ -1,1 +1,1 @@
-text/html; w3m -I %{charset} -T text/html -dump -cols 80 %s; copiousoutput; description=HTML Text; nametemplate=%s.html
+text/html; w3m -I %{charset} -T text/html -dump -cols 60 %s; copiousoutput; description=HTML Text; nametemplate=%s.html
